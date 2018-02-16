@@ -16,6 +16,6 @@ magic(X, Curr, Sum, Ans) :-
 :-initialization(main).
 
 main :- read(X), nl,
-		magic(X, X - 1, 0, Ans),
-		write(Ans), nl,
-		halt(0).
+	magic(X, X - 1, 0, Ans),
+	write(Ans), nl,
+	halt(0).
